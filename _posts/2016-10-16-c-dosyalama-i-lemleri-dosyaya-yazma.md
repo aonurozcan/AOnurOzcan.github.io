@@ -40,5 +40,3 @@ int main() {
 Programımızın çıktısı şu şekilde olacaktır.
 
 ![ProgramCiktisi]({{site.baseurl}}/img/denmee.png)
-
-Bu bölümde sadece veri girmeyi anlattım. Bir sonraki yazıda görüşmek dileğiyle. Herhangi bir sorunuz olursa iletişim kısmından bana ulaşabilirsiniz. Yorum yazmayı unutmayın.
