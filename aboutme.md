@@ -10,6 +10,7 @@ Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü 4.sınıf öğrencisiy
 - JSF
 - JPA
 - Spring Core
+
 ### Javascript
 - BackboneJS
 - AngularJS
