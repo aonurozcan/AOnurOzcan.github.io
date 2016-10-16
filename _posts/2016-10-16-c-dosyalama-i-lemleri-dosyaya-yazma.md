@@ -26,7 +26,7 @@ Peki dosyamızı hangi modda açacağız? (Sadece temel modları yazıyorum)
 Bir örnek yapalım. Deneme.txt isimli bir dosya oluşturup içine veri girelim
 
 {% highlight cpp linenos %}
-#include <fstream>; //Dosyalama işlemleri için gerekli olan kütüphane.
+#include <fstream> //Dosyalama işlemleri için gerekli olan kütüphane.
 using namespace std;
 
 int main() {
