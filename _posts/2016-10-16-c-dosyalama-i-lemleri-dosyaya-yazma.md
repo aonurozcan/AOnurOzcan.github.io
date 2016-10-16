@@ -32,7 +32,7 @@ using namespace std;
 int main() {
   ofstream dosya; //ofstream sınıfından bir nesne oluşturduk.Herhangi bir isim verebilirsiniz.
   dosya.open("deneme.txt"); //deneme.txt isimli bir dosya açtık.
-  dosya << "Dosyaya yazi yazdim.n"; //Dikkat edin burada oluşturduğumuz nesneyi cout gibi kullanıyoruz.
+  dosya << "Dosyaya yazi yazdim."; //Dikkat edin burada oluşturduğumuz nesneyi cout gibi kullanıyoruz.
   dosya.close(); //dosyayı kapattık.
   return 0;
 {% endhighlight %}
