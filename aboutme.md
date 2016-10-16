@@ -1,16 +1,20 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Hakkımda
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü 4.sınıf öğrencisiyim.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Java
+- JSP
+- JSF
+- JPA
+- Spring Core
+### Javascript
+- BackboneJS
+- AngularJS
+- NodeJS
 
-What else do you need?
+gibi konularla ilgileniyorum. Öğrendiklerimi insanlarla paylaşmaktan keyif alıyorum.
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Bana sayfanın en altında bulunan linklerden ulaşabilirsiniz.
