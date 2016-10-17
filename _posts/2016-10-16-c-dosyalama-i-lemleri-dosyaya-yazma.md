@@ -18,7 +18,7 @@ Peki dosyamızı hangi modda açacağız? (Sadece temel modları yazıyorum)
 İzlememiz gereken adımlar;
 
   1. Önce seçeceğimiz sınıftan bir nesne yaratıyoruz.
-  2. Bu nesneden **.open()** fonksiyonu kullanarak bir dosya oluşturuyoruz ve modunu belirliyoruz.
+  2. Bu nesneden **`open()`** fonksiyonu kullanarak bir dosya oluşturuyoruz ve modunu belirliyoruz.
   3. Dosya açma kalıbımız şu şekilde; Nesneİsmi.open(Dosyaİsmi, Mod)
   4. İşlemlerimizi yapıyoruz.
   5. **.close()** fonksiyonunu kullanarak dosyamızı kapatıyoruz.
