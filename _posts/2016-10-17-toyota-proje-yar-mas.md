@@ -36,7 +36,7 @@ Server-Side’a bakalım. Tüm işlemler sunucu tarafında yapılır. Client-Sid
 
 Toplantıdan bir gün sonra yani 16 Nisan’da projenin tüm detaylarını anlatan belgeleri e-posta ile bize gönderdiler.
 
-Belgelere şuradan erişebilirsiniz: [Ekran Görüntüleri](/files/screen-images.pdf){:target="_blank"}, [Uygulama Spesifikasyonları](/files/uygulama-spec.pdf){:target="_blank"}
+Belgelere şuradan erişebilirsiniz: [Ekran Görüntüleri](/files/screen-images.pdf){:target="_blank"} , [Uygulama Spesifikasyonları](/files/uygulama-spec.pdf){:target="_blank"}
 
 Bu aşamadan sonra bir yandan projeyi geliştirmeye devam ederken bir yandan da grup arkadaşımla birlikte her hafta düzenli olarak toplantılara katılmaya devam ettik. Projede takıldığımız birkaç noktada fikir alışverişi yaptık. Yarışmaya katılan 70 küsür kişi olduğu halde toplantılara 6 – 7 kişi geliyordu. İlk toplantıda ise oturacak yer yoktu. Diyeceğim o ki kişi sayısı çok fazla gözünüzü korkutmasın. Çoğu kişi bilgi edinme amaçlı katılıyor. Kimisine de proje geliştirmek zor geliyor ve bırakıyor. Durum bu iken toplantılara katılıyor olmanız sizi diğerlerinden önde tutacaktır.
 
