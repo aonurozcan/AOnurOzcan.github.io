@@ -58,6 +58,7 @@ Bu görüşme için size verebileceğim tavsiyeler;
 
 Mümkün olduğunca rahat olmaya çalışın.
 Sorulara dürüst cevaplar verin.
+
 **`Not:`** Benzer bir işe alım sürecini Ford firması’da yapıyor. Belki sonraki seneler değişebilir ama Ford’un işe alım süreci Toyota’dan sonra başlıyor ve önce bitiyor. Yani hangi firmaya girmek istediğinize önceden karar verin derim. Bu iki firma tamamen farklı dünyalarda yazılım geliştiriyor. Dolayısıyla biz Java üzerine uzmanlaşmak istediğimiz için sadece Toyota’ya başvurduk Siz her ikisine de başvuru yapabilirsiniz fakat biz sunum mülakatında “Ford’a başvuru yaptınız mı?” gibi bir soruyla karşılaştık. Böyle bir soru gelirse nasıl bir cevap vereceğinizi önceden belirleyin.
 
 **`Not:`** Toyota yazın yapacağınız stajlar için size kalacak yer sağlamıyor. Eğer kazanırsanız bu süre zarfında nerede kalacağınız konusunu düşünmenizi tavsiye ederim.
