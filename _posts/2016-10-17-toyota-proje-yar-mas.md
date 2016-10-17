@@ -20,7 +20,7 @@ Duyuruya şuradan ulaşabilirsiniz: [Toyota Öğrenci Alım Süreci Duyurusu](ht
 
 Grup olayından bahsetmek istiyorum. Toyota, bireysellikten çok takım çalışmasına önem veriyor. Bu yüzden öncelikli olarak grup halinde(2 kişi) katılanları tercih ediyorlar ama tek başına kazananlar da var. Ayrıca grup halinde katılanlardan kağıt üzerinde grup olmaları değil beraber çalışmaları bekleniyor. Bir kişinin kodları yazıp diğerinin hazıra konduğu gruplar mülakat aşamasında farkediliyor. Bu yüzden elenen gruplar olduğunu da daha sonradan öğrendim. Ben grup halinde katılmanızı öneririm, bu sizi bir adım öne taşır.
 
-Devam edelim. Grup arkadaşımı belirledikten sonra CV hazırlamaya koyulduk. Bu aşamada hazırlayıp gönderdiğim CV’ye şuradan erişebilirsiniz: [Abdullah Onur Özcan - CV](https://yadi.sk/i/pkMVC6l2x3BgX "Abdullah Onur Özcan - CV")
+Devam edelim. Grup arkadaşımı belirledikten sonra CV hazırlamaya koyulduk. Bu aşamada hazırlayıp gönderdiğim CV’ye şuradan erişebilirsiniz: [PDF](/files/cv.pdf)
 
 CV gönderimi 10 Nisan’da bittikten sonra 13 Nisan’da bir e-posta aldık. (CV’nize geçerli ve kullandığınız bir e-posta adresi yazmanız bu yüzden önemli) E-postada çarşamba günü toplantı yapılacağı ve projede kullanılacak standartların anlatılacağı yazıyordu. Toplantıya gittiğimizde ilgili konular anlatıldı ve proje standartlarının yazılı olduğu bir çıktı bizimle paylaşıldı.
 
