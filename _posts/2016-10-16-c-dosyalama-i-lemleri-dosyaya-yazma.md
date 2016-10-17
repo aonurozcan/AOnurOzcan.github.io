@@ -21,7 +21,7 @@ Peki dosyamızı hangi modda açacağız? (Sadece temel modları yazıyorum)
   2. Bu nesneden **`open()`** fonksiyonu kullanarak bir dosya oluşturuyoruz ve modunu belirliyoruz.
   3. Dosya açma kalıbımız şu şekilde; Nesneİsmi.open(Dosyaİsmi, Mod)
   4. İşlemlerimizi yapıyoruz.
-  5. **.close()** fonksiyonunu kullanarak dosyamızı kapatıyoruz.
+  5. **`close()`** fonksiyonunu kullanarak dosyamızı kapatıyoruz.
 
 Bir örnek yapalım. Deneme.txt isimli bir dosya oluşturup içine veri girelim
 
