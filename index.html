@@ -21,11 +21,6 @@ published: true
       {{ post.date | date: "%d/%m/%Y" }} tarihinde yayınlandı.
     </p>
 
-    <div class="post-entry">
-        {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
-        <span href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Devamını&nbsp;Oku]</span>
-      </div>
-
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
       Tags:
