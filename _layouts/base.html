@@ -29,5 +29,9 @@ common-js:
   
     {% include footer-scripts.html %}
   
+    {% if page.addthis-plugin %} 
+      <!-- AddThis plugin (floating social media sharing buttons on the left of each post) -->
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5805064af9df9bba"></script> 
+    {% endif %}
   </body>
 </html>
