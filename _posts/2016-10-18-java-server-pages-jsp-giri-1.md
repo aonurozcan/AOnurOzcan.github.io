@@ -4,7 +4,11 @@ published: true
 title: Java Server Pages - JSP Giriş - 1
 permalink: 2016-10-18-java-server-pages-jsp-giris-1
 ---
-Herkese merhaba. Bu yazı dizisinde sizlere JSP ve JSP içerisinde kullandığımız diğer teknolojileri(Servlet, JSTL, EL) anlatmaya çalışacağım. Halen öğrenmeye devam eden birisi olarak hatalarım olabilir. Dolayısıyla istek, öneri ve şikayetlerinizi benimle paylaşmaktan çekinmeyin. **JSP nedir?** JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluşturmayı sağlayan bir JAVA teknolojisidir. 
+Herkese merhaba. Bu yazı dizisinde sizlere JSP ve JSP içerisinde kullandığımız diğer teknolojileri(Servlet, JSTL, EL) anlatmaya çalışacağım. Halen öğrenmeye devam eden birisi olarak hatalarım olabilir. Dolayısıyla istek, öneri ve şikayetlerinizi benimle paylaşmaktan çekinmeyin. 
+
+**JSP nedir?** 
+
+JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluşturmayı sağlayan bir JAVA teknolojisidir. 
 
 **JSP ile Neler Yapılabilir?**
 
