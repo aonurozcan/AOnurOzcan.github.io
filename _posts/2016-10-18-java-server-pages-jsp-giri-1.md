@@ -6,11 +6,11 @@ permalink: 2016-10-18-java-server-pages-jsp-giris-1
 ---
 Herkese merhaba. Bu yazı dizisinde sizlere JSP ve JSP içerisinde kullandığımız diğer teknolojileri(Servlet, JSTL, EL) anlatmaya çalışacağım. Halen öğrenmeye devam eden birisi olarak hatalarım olabilir. Dolayısıyla istek, öneri ve şikayetlerinizi benimle paylaşmaktan çekinmeyin. 
 
-**JSP nedir?** 
+## JSP nedir? 
 
 JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluşturmayı sağlayan bir JAVA teknolojisidir. 
 
-**JSP ile Neler Yapılabilir?**
+## JSP ile Neler Yapılabilir?
 
 *   Web tabanlı İçerik Yönetim Sistemleri (CMS).
 *   Bloglar, Sosyal Medya uygulamaları ve forumlar.
@@ -20,7 +20,7 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 *   Cookie ve Session uygulamaları.
 *   Üyelik sistemleri.
 
-**JSP’nin Avantajları**
+## JSP’nin Avantajları
 
 *   JSP’de sunum ve program mantığı birbirinden ayrılır.
 *   JSP Java’nın gücünden faydalanır.
@@ -28,7 +28,7 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 *   JSP esnektir.
 *   JSP özgün takıları destekler.
 
-**JSP ile basit bir “Hello World” örneği**
+## JSP ile basit bir “Hello World” örneği
   
 {% highlight html linenos %}
 <html>
@@ -58,7 +58,9 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 4.  Yapılan işlemler sonucunda JSP sayfasına bilgi döner.
 5.  JSP dönen sonucu client’e yani kullanıcıya gönderir.
 
- Dilerseniz bu kısa tanıtımdan sonra uygulamaya geçelim. Ben bu eğitimde sunucu olarak **Apache Tomcat**, IDE olarak da **Eclipse** kullanacağım. Tabii hepsinden önce sistemimize **JDK**’yı kurmamız gerekiyor. Başlayalım!   **JDK Kurulumu**
+ Dilerseniz bu kısa tanıtımdan sonra uygulamaya geçelim. Ben bu eğitimde sunucu olarak **Apache Tomcat**, IDE olarak da **Eclipse** kullanacağım. Tabii hepsinden önce sistemimize **JDK**’yı kurmamız gerekiyor. Başlayalım!   
+ 
+## JDK Kurulumu
 
 1.  **[Buradan](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"}** JDK indirme sayfasına gidiyoruz. Şartları kabul edip hangi işletim sistemini kullanıyorsak ona uygun olan sürümünü indiriyoruz. Ben 64 bit Windows kullandığım için onu işaretledim.
 
@@ -84,7 +86,7 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 
 1.  İşlem tamam. Artık bu eğitimde kullanacağımız Eclipse IDE’nin kurulumuna geçebiliriz.
 
-**Eclipse IDE Kurulumu**
+## Eclipse IDE Kurulumu
 
 1.  [**Buraya**](https://eclipse.org/downloads/){:target="_blank"} tıklayarak Eclipse indirme sayfasına gidiyoruz. İşaretlediğim kısımdan işletim sistemimize uygun olanına tıklıyoruz.
 
