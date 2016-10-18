@@ -66,25 +66,25 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 
 ![1](http://kod5.org/wp-content/uploads/2015/03/11-1024x570.png){:target="_blank"}
 
-1.  İndirdiğimiz dosyayı açıp kuralım. Kurulum aşamasında herhangi bir ayar yapmamıza gerek yok.
+2.  İndirdiğimiz dosyayı açıp kuralım. Kurulum aşamasında herhangi bir ayar yapmamıza gerek yok.
 
-1.  Eğer windows kullanıyorsanız, kurulumdan sonra birkaç ayar yapmanız gerekecek. Bilgisayarım simgesine sağ tıklayıp özellikler diyelim. Gelişmiş sistem ayarlarına tıklayalım.
+3.  Eğer windows kullanıyorsanız, kurulumdan sonra birkaç ayar yapmanız gerekecek. Bilgisayarım simgesine sağ tıklayıp özellikler diyelim. Gelişmiş sistem ayarlarına tıklayalım.
 
 ![2.1](http://kod5.org/wp-content/uploads/2015/03/2.1-1024x545.png){:target="_blank"}
 
-1.  Açılan pencerede **`Ortam Değişkenleri`**’ne tıklayalım.
+4.  Açılan pencerede **`Ortam Değişkenleri`**’ne tıklayalım.
 
 ![3](http://kod5.org/wp-content/uploads/2015/03/3.png){:target="_blank"}
 
-1.  Alt kısımdan **`Path`** değişkenini bulup düzenle diyoruz.
+5.  Alt kısımdan **`Path`** değişkenini bulup düzenle diyoruz.
 
 ![4](http://kod5.org/wp-content/uploads/2015/03/4.png){:target="_blank"}
 
-1.  Değişken değeri yazan bölümde en sona kadar gidip bir noktalı virgül koyuyoruz ve JDK’mızın kurulu olduğu dizinin adresini yazıyoruz. **“C:\Program Files\Java\jdk1.8.0_20\bin” **(Sizde farklı olabilir)
+6.  Değişken değeri yazan bölümde en sona kadar gidip bir noktalı virgül koyuyoruz ve JDK’mızın kurulu olduğu dizinin adresini yazıyoruz. **“C:\Program Files\Java\jdk1.8.0_20\bin” **(Sizde farklı olabilir)
 
 ![5](http://kod5.org/wp-content/uploads/2015/03/5.png){:target="_blank"}
 
-1.  İşlem tamam. Artık bu eğitimde kullanacağımız Eclipse IDE’nin kurulumuna geçebiliriz.
+7.  İşlem tamam. Artık bu eğitimde kullanacağımız Eclipse IDE’nin kurulumuna geçebiliriz.
 
 ## Eclipse IDE Kurulumu
 
