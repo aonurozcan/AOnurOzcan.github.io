@@ -62,29 +62,29 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
  
 ## JDK Kurulumu
 
-1.  **[Buradan](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"}** JDK indirme sayfasına gidiyoruz. Şartları kabul edip hangi işletim sistemini kullanıyorsak ona uygun olan sürümünü indiriyoruz. Ben 64 bit Windows kullandığım için onu işaretledim.
+1.**[Buradan](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html){:target="_blank"}** JDK indirme sayfasına gidiyoruz. Şartları kabul edip hangi işletim sistemini kullanıyorsak ona uygun olan sürümünü indiriyoruz. Ben 64 bit Windows kullandığım için onu işaretledim.
 
 ![1](http://kod5.org/wp-content/uploads/2015/03/11-1024x570.png){:target="_blank"}
 
-2.  İndirdiğimiz dosyayı açıp kuralım. Kurulum aşamasında herhangi bir ayar yapmamıza gerek yok.
+2.İndirdiğimiz dosyayı açıp kuralım. Kurulum aşamasında herhangi bir ayar yapmamıza gerek yok.
 
-3.  Eğer windows kullanıyorsanız, kurulumdan sonra birkaç ayar yapmanız gerekecek. Bilgisayarım simgesine sağ tıklayıp özellikler diyelim. Gelişmiş sistem ayarlarına tıklayalım.
+3.Eğer windows kullanıyorsanız, kurulumdan sonra birkaç ayar yapmanız gerekecek. Bilgisayarım simgesine sağ tıklayıp özellikler diyelim. Gelişmiş sistem ayarlarına tıklayalım.
 
 ![2.1](http://kod5.org/wp-content/uploads/2015/03/2.1-1024x545.png){:target="_blank"}
 
-4.  Açılan pencerede **`Ortam Değişkenleri`**’ne tıklayalım.
+4.Açılan pencerede **`Ortam Değişkenleri`**’ne tıklayalım.
 
 ![3](http://kod5.org/wp-content/uploads/2015/03/3.png){:target="_blank"}
 
-5.  Alt kısımdan **`Path`** değişkenini bulup düzenle diyoruz.
+5.Alt kısımdan **`Path`** değişkenini bulup düzenle diyoruz.
 
 ![4](http://kod5.org/wp-content/uploads/2015/03/4.png){:target="_blank"}
 
-6.  Değişken değeri yazan bölümde en sona kadar gidip bir noktalı virgül koyuyoruz ve JDK’mızın kurulu olduğu dizinin adresini yazıyoruz. **“C:\Program Files\Java\jdk1.8.0_20\bin” **(Sizde farklı olabilir)
+6.Değişken değeri yazan bölümde en sona kadar gidip bir noktalı virgül koyuyoruz ve JDK’mızın kurulu olduğu dizinin adresini yazıyoruz. **“C:\Program Files\Java\jdk1.8.0_20\bin” **(Sizde farklı olabilir)
 
 ![5](http://kod5.org/wp-content/uploads/2015/03/5.png){:target="_blank"}
 
-7.  İşlem tamam. Artık bu eğitimde kullanacağımız Eclipse IDE’nin kurulumuna geçebiliriz.
+7.İşlem tamam. Artık bu eğitimde kullanacağımız Eclipse IDE’nin kurulumuna geçebiliriz.
 
 ## Eclipse IDE Kurulumu
 
