@@ -64,6 +64,4 @@ Hazırsanız başlayalım
 26.  Bir süre bekleyin. Kodlar **OpenShift**'e gönderilecek ve oradaki sunucu yeniden başlatılacak. İşaretlediğim şekilde **Server start** yazısını görüyorsanız artık [deneme-kod5.rhcloud.com](http://deneme-kod5.rhcloud.com) adresinden kodlarımızı test edebiliriz :) [![2015-12-17 22_21_42-deneme - [C__Users_HonouR_Desktop_Kod5Deneme] - [deneme] - ..._src_main_webapp_i](http://kod5.org/wp-content/uploads/2015-12-17-22_21_42-deneme-C__Users_HonouR_Desktop_Kod5Deneme-deneme-..._src_main_webapp_i.png)](http://kod5.org/wp-content/uploads/2015-12-17-22_21_42-deneme-C__Users_HonouR_Desktop_Kod5Deneme-deneme-..._src_main_webapp_i.png)
 27.  Veee işte sonuç :) [![2015-12-17 22_23_40-Greenshot](http://kod5.org/wp-content/uploads/2015-12-17-22_23_40-Greenshot.png)](http://kod5.org/wp-content/uploads/2015-12-17-22_23_40-Greenshot.png)
 
-    * * *
-
 OpenShift'e deploy işlemini elimden geldiğince anlatmaya çalıştım. Umarım faydası olur.  Bu işlemler sırasında bir sorun oluşursa, bu yazının altına yorum olarak yazabilirsiniz ya da [Facebook ](https://www.facebook.com/onurozcn) üzerinden bana ulaşabilirsiniz.
