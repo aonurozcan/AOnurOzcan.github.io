@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: JSP İle İlk Uygulama - 2
+permalink: 2016-10-18-jsp-ilk-uygulama-2
 ---
 Merhaba, [önceki](http://aonurozcan.com/2016-10-18-java-server-pages-jsp-giris-1) yazımda **JSP**’nin ne olduğundan, **JSP** ile neler yapılabildiğinden, gerekli **IDE** ve araçların kurulumundan bahsetmiştim. Bu yazıda teorik bilgilerden sonra artık uygulamaya geçebiliriz. Bu aşamada size tavsiyem bir klasör oluşturun ve bu klasörün içine **Eclipse** ve **Tomcat**’i atın. Bu şekilde projenizi başka bir bilgisayarda çalıştırmak isterseniz klasörü olduğu gibi kopyalamak yeterli olacaktır. Hazırsanız başlayalım..   
 
