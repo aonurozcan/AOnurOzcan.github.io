@@ -88,23 +88,23 @@ JSP, programlama dili olarak JAVA’yı kullanan ve dinamik websiteleri oluştur
 
 ## Eclipse IDE Kurulumu
 
-1.  [**Buraya**](https://eclipse.org/downloads/){:target="_blank"} tıklayarak Eclipse indirme sayfasına gidiyoruz. İşaretlediğim kısımdan işletim sistemimize uygun olanına tıklıyoruz.
+1.[**Buraya**](https://eclipse.org/downloads/){:target="_blank"} tıklayarak Eclipse indirme sayfasına gidiyoruz. İşaretlediğim kısımdan işletim sistemimize uygun olanına tıklıyoruz.
 
 ![1](http://kod5.org/wp-content/uploads/2015/03/12-1024x547.png)
 
-1.  Sonraki sayfada yeşil butona tıklayıp indirmemizi başlatıyoruz.
+1.Sonraki sayfada yeşil butona tıklayıp indirmemizi başlatıyoruz.
 
 ![2](http://kod5.org/wp-content/uploads/2015/03/21-1024x546.png){:target="_blank"} Eclipse IDE’nin bildiğimiz anlamda kurulumu yoktur. İndirmeniz bittiğinde .zip uzantılı bir dosya göreceksiniz. O dosyayı istediğiniz yere çıkarıp içindeki eclipse.exe’yi tıklayarak **Eclipse**’yi kullanmaya başlayabilirsiniz.   **Apache Tomcat Kurulumu**
 
-1.  **[Buradan](http://tomcat.apache.org/){:target="_blank"}** önce Tomcat’in ana sayfasına sonra işaretli olan yere tıklayarak indirme sayfasına gidelim.
+3.**[Buradan](http://tomcat.apache.org/){:target="_blank"}** önce Tomcat’in ana sayfasına sonra işaretli olan yere tıklayarak indirme sayfasına gidelim.
 
 ![1](http://kod5.org/wp-content/uploads/2015/03/1-1024x546.png){:target="_blank"}
 
-1.  İndirme sayfamızda yine işletim sistemimize uygun olanı seçip indiriyoruz.
+4.İndirme sayfamızda yine işletim sistemimize uygun olanı seçip indiriyoruz.
 
 ![2](http://kod5.org/wp-content/uploads/2015/03/2-1024x546.png){:target="_blank"}
 
-1.  Tomcat tıpkı Eclipse gibi taşınabilir bir program. İndirdiğiniz .zip uzantılı dosyayı istediğiniz yere çıkartabilirsiniz. Eclipse klasörünün içine çıkarmak taşınabilirlik açısından daha uygundur.
+5.Tomcat tıpkı Eclipse gibi taşınabilir bir program. İndirdiğiniz .zip uzantılı dosyayı istediğiniz yere çıkartabilirsiniz. Eclipse klasörünün içine çıkarmak taşınabilirlik açısından daha uygundur.
 
 JSP projesi geliştirmemiz için ihtiyacımız olan tüm programları indirdik ve kurduk. Bir sonraki [yazımızda](http://kod5.org/jsp-ile-ilk-uygulama-2/){:target="_blank"} ilk JSP projemizi Eclipse üzerinde oluşturacağız. Yazıda anlatılanlarla ilgili aklınıza takılan soruları yorum kısmında sorabilirsiniz. Görüşmek üzere.. **Kaynaklar:**
 
