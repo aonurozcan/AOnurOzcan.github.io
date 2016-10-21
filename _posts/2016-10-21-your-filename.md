@@ -18,7 +18,9 @@ Emir etiketlerinin 3 çeşidi vardır. Bunlar:
 *   **Include**
 *   **Taglib**
 
-**Page Etiketi** Etiketlerin attribute diye adlandırdığımız öznitelikleri vardır. Page etiketine bu öznitelikleri ekleyerek sayfa hakkında uygulama sunucusuna bilgi veririz. Fazla kafa karıştırmamak için bu özniteliklerden sadece önemli olanlarını inceleyeceğim. Bunlar:
+## Page Etiketi
+
+Etiketlerin attribute diye adlandırdığımız öznitelikleri vardır. Page etiketine bu öznitelikleri ekleyerek sayfa hakkında uygulama sunucusuna bilgi veririz. Fazla kafa karıştırmamak için bu özniteliklerden sadece önemli olanlarını inceleyeceğim. Bunlar:
 
 *   contentType
 *   errorPage
@@ -56,13 +58,17 @@ Emir etiketlerinin 3 çeşidi vardır. Bunlar:
 <%@ page language="java" %>
 {% endhighlight %}
 
-  **Include Etiketi** Include etiketi bir **JSP** sayfasının içeriğini olduğu gibi başka bir **JSP** sayfasına dahil eder. Bu işlemi **file** özniteliği ile yapar. Kullanım:
+  ## Include Etiketi
+  
+  Include etiketi bir **JSP** sayfasının içeriğini olduğu gibi başka bir **JSP** sayfasına dahil eder. Bu işlemi **file** özniteliği ile yapar. Kullanım:
 
 {% highlight java linenos %}
 <%@ include file="dahilEdilecekSayfa.jsp" %>
 {% endhighlight %}
 
-  **Taglib Etiketi** Bu etiket, kullanıcının özel olarak oluşturulan etiketleri(**custom tags**) kullanmasını sağlar. **JSTL** (Java Standard Tag Library) de bu sistemle oluşturulduğundan **JSTL**’i kullanmak için sayfalarımızın başında **taglib** etiketini kullanmalıyız. **JSTL**’i ileride daha detaylı inceleyeceğiz. Taglib etiketinin iki tane özniteliği vardır. Bunlar: **uri** ve **prefix**. Prefix ön ek demektir. Kullanacağımız özel etiketlerin önüne koyarız. **Örnek**: **JSTL** içindeki **<c:out>** etiketi. **C** burada ön ektir. **Uri** özniteliği ise kullanacağımız özel etiketlerin kaynağını belirtir. Kullanım:
+  ## Taglib Etiketi
+  
+  Bu etiket, kullanıcının özel olarak oluşturulan etiketleri(**custom tags**) kullanmasını sağlar. **JSTL** (Java Standard Tag Library) de bu sistemle oluşturulduğundan **JSTL**’i kullanmak için sayfalarımızın başında **taglib** etiketini kullanmalıyız. **JSTL**’i ileride daha detaylı inceleyeceğiz. Taglib etiketinin iki tane özniteliği vardır. Bunlar: **uri** ve **prefix**. Prefix ön ek demektir. Kullanacağımız özel etiketlerin önüne koyarız. **Örnek**: **JSTL** içindeki **<c:out>** etiketi. **C** burada ön ektir. **Uri** özniteliği ise kullanacağımız özel etiketlerin kaynağını belirtir. Kullanım:
 
 {% highlight java linenos %}
 <%@ taglib  prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
