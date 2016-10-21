@@ -58,7 +58,7 @@ Etiketlerin attribute diye adlandırdığımız öznitelikleri vardır. Page eti
 <%@ page language="java" %>
 {% endhighlight %}
 
-  ## Include Etiketi
+## Include Etiketi
   
   Include etiketi bir **JSP** sayfasının içeriğini olduğu gibi başka bir **JSP** sayfasına dahil eder. Bu işlemi **file** özniteliği ile yapar. Kullanım:
 
@@ -66,7 +66,7 @@ Etiketlerin attribute diye adlandırdığımız öznitelikleri vardır. Page eti
 <%@ include file="dahilEdilecekSayfa.jsp" %>
 {% endhighlight %}
 
-  ## Taglib Etiketi
+## Taglib Etiketi
   
   Bu etiket, kullanıcının özel olarak oluşturulan etiketleri(**custom tags**) kullanmasını sağlar. **JSTL** (Java Standard Tag Library) de bu sistemle oluşturulduğundan **JSTL**’i kullanmak için sayfalarımızın başında **taglib** etiketini kullanmalıyız. **JSTL**’i ileride daha detaylı inceleyeceğiz. Taglib etiketinin iki tane özniteliği vardır. Bunlar: **uri** ve **prefix**. Prefix ön ek demektir. Kullanacağımız özel etiketlerin önüne koyarız. **Örnek**: **JSTL** içindeki **<c:out>** etiketi. **C** burada ön ektir. **Uri** özniteliği ise kullanacağımız özel etiketlerin kaynağını belirtir. Kullanım:
 
