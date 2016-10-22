@@ -4,6 +4,7 @@ published: true
 title: JSP – Action Tags – 5
 date: '2016-10-22'
 permalink: jsp-action-tags-5
+share-img: aonurozcan.com/img/jsp-wallpaper-small.png
 ---
 Merhaba, bu yazıda **JSP Action Tags**'i ele alacağız. **JSP** action etiketleri yönlendirme, dahil etme, java beanleri kullanma gibi işlemlerde kullanılır. 
 
