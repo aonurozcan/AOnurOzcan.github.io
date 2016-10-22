@@ -54,7 +54,7 @@ sayfa.jsp'yi dahil ettik.
 
 #### sayfa.jsp
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page import="java.util.Date, java.text.DateFormat" %>
 
 <% 
