@@ -9,7 +9,7 @@ Merhaba, bu yazıda **JSP Action Tags**'i ele alacağız. **JSP** action etiketl
 
 ## Başlıca JSP Action Etiketleri
 
-*   <jsp:include>
+*   ``<jsp:include>``
 *   <jsp:forward>
 *   <jsp:param>
 *   <jsp:useBean>
