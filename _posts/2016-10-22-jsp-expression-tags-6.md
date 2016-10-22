@@ -18,7 +18,7 @@ Merhaba. Bu yazıda **JSP - Expression Tags** konusuna değineceğiz. **Expressi
 
 **-> Matematiksel işlemler yapıp sonucunu döndürebiliriz.**
 
-{% highlight html %}
+{% highlight html linenos %}
 <html>
    <head>
       <title>Matematiksel İşlem</title>
