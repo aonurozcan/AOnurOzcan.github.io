@@ -29,6 +29,7 @@ Merhaba. Bu yazıda **JSP - Expression Tags** konusuna değineceğiz. **Expressi
 </html>
 {% endhighlight %}
 
+
 #### Ekran Görüntüsü
 
 ![Screenshot_1](http://kod5.org/wp-content/uploads/Screenshot_110.png)         
