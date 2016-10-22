@@ -123,7 +123,7 @@ JSP sayfasına yapılan bir isteği başka bir sayfaya yönlendirmek için kulla
 
 ## ``<jsp:param>`` Etiketi
 
-Bu etiket ile diğer **JSP** etiketlerine(**<jsp:include>**,**<jsp:forward>** vs.) parametre gönderilebilir. Bu şekilde yönlendirilen ya da dahil edilen **JSP** sayfaları bu parametrelere ulaşabilir. 
+Bu etiket ile diğer **JSP** etiketlerine(``<jsp:include>``,``<jsp:forward>`` vs.) parametre gönderilebilir. Bu şekilde yönlendirilen ya da dahil edilen **JSP** sayfaları bu parametrelere ulaşabilir. 
 
 #### Kullanım:
 
