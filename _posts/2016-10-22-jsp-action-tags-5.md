@@ -63,7 +63,7 @@ sayfa.jsp'yi dahil ettik.
 %>
 {% endhighlight %}
 
-## Ekran Görüntüleri
+## Ekran Görüntüleri
 
 ![3](http://kod5.org/wp-content/uploads/2015/04/3.png)
 
