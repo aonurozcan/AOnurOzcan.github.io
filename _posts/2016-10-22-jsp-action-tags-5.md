@@ -16,7 +16,7 @@ Merhaba, bu yazıda **JSP Action Tags**'i ele alacağız. **JSP** action etiketl
 *   ``<jsp:getProperty>``
 *   ``<jsp:setProperty>``
 
-## <jsp:include> Etiketi
+## ``<jsp:include>`` Etiketi
 
 Bir **JSP** sayfası içerisinde başka bir **JSP** sayfasını çağırmamızı sağlar. Bu sayede kodlarımızı farklı **JSP** sayfalarına yazarak bölebilir, bir sayfa içerisinde hepsini çağırıp kullanabiliriz.
 
@@ -24,7 +24,7 @@ Bir **JSP** sayfası içerisinde başka bir **JSP** sayfasını çağırmamızı
 
 #### Kullanım:
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp:include page="Dahil edilecek sayfa adresi"/>
 {% endhighlight %}
 
@@ -67,21 +67,21 @@ sayfa.jsp'yi dahil ettik.
 
 ![3](http://kod5.org/wp-content/uploads/2015/04/3.png)
 
-## **<jsp:forward> Etiketi
+## ``<jsp:forward>`` Etiketi
 
 JSP sayfasına yapılan bir isteği başka bir sayfaya yönlendirmek için kullanılır. Bu etiketin bir özelliği de yönlendirme yapıldığında adresin değişmemesidir. Örnek uygulamada bunu görebilirsiniz. 
 
 #### Kullanım:
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp:forward page="Gidilecek sayfanın adresi"/>
 {% endhighlight %}
 
-## <jsp:forward> Örnek Uygulama
+## ``<jsp:forward>`` Örnek Uygulama
 
 #### index.jsp
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -100,7 +100,7 @@ JSP sayfasına yapılan bir isteği başka bir sayfaya yönlendirmek için kulla
 
 #### sayfa.jsp
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -121,22 +121,22 @@ JSP sayfasına yapılan bir isteği başka bir sayfaya yönlendirmek için kulla
 
 ![4](http://kod5.org/wp-content/uploads/2015/04/4.png)
 
-## <jsp:param> Etiketi
+## ``<jsp:param>`` Etiketi
 
 Bu etiket ile diğer **JSP** etiketlerine(**<jsp:include>**,**<jsp:forward>** vs.) parametre gönderilebilir. Bu şekilde yönlendirilen ya da dahil edilen **JSP** sayfaları bu parametrelere ulaşabilir. 
 
 #### Kullanım:
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <jsp:param name="Parametrenin adı" value="Parametrenin değeri" />
 {% endhighlight %}
 
-## <jsp:param> Örnek Uygulama
+## ``<jsp:param>`` Örnek Uygulama
 
 #### index.jsp
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -157,7 +157,7 @@ Bu etiket ile diğer **JSP** etiketlerine(**<jsp:include>**,**<jsp:forward>** vs
 
 #### sayfa.jsp
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
 "http://www.w3.org/TR/html4/loose.dtd">
@@ -178,40 +178,40 @@ Bu etiket ile diğer **JSP** etiketlerine(**<jsp:include>**,**<jsp:forward>** vs
 
 ![5](http://kod5.org/wp-content/uploads/2015/04/5.png)
 
-## <jsp:useBean> Etiketi
+## ``<jsp:useBean>`` Etiketi
 
 **JSP** sayfalarında **Java Bean**'leri çağırmak için kullanılır. **Java Beans** konusunu daha sonra detaylı olarak göreceğiz. Şimdi sadece basit bir örnek verelim. 
 
 #### Kullanım:
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp:useBean id="Beani temsil edecek herhangi bir isim"  class="paketAdi.classAdi" />
 {% endhighlight %}
 
 Yukarıdaki kod ile kullanacağımız **Java Class**'ından bir nesne oluşturmuş olduk. **<jsp:setProperty>** ve **<jsp:getProperty>** etiketlerini kullanarak bu nesne üzerinden değer atama(**Set**) ve değer çekme(**Get**) işlemleri yapabileceğiz.
 
-## <jsp:setProperty> Etiketi
+## ``<jsp:setProperty>`` Etiketi
 
 Bu etiket kullanılmadan önce **jsp:useBean** etiketi tanımlanmış olmalıdır. **jsp:useBean** etiketi ile belirtilen **bean**'in değişkenlerine değer ataması yapar. Adından da anlaşılacaği gibi **set** metodunun işlevini yapar. 
 
 #### Kullanım:
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp: useBean id="Beani temsil edecek herhangi bir isim"  class="paketAdi.sinifAdi" />
 <jsp:setProperty name="useBean etiketinde verdiğimiz id" property="Sınıftaki değişken adı" />
 {% endhighlight %}
 
 Eğer birden fazla değişkene aynı anda değer ataması yapmak istiyorsak '*' kullanabiliriz.
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp:setPropery name="useBean etiketinde verdiğimiz id" property="*"/>
 {% endhighlight %}
 
-## <jsp:getProperty> Etiketi
+## ``<jsp:getProperty>`` Etiketi
 
 **jsp:useBean** etiketi ile belirtlilen **bean**'in değişkenlerinin değerini çeker. Adından da anlaşılacaği gibi **get** metodunun işlevini yapar.
 
-{% highlight java linenos %}
+{% highlight html linenos %}
 <jsp:getProperty name="useBean etiketinde verdiğimiz id" property="Sınıftaki değişken adı"/>
 {% endhighlight %}
 
