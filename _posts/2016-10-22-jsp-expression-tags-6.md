@@ -14,7 +14,7 @@ Merhaba. Bu yazıda **JSP - Expression Tags** konusuna değineceğiz. **Expressi
 	<%= sonucu ekrana basılacak olan ifade %>
 {% endhighlight %}
 
-``**Not**``: Expression Tag içindeki ifadelerin sonuna noktalı virgül konulmaz. Birkaç örnekle devam edelim. **Expression tag** kullanarak neler yapabiliriz bir görelim. 
+**``Not``**: Expression Tag içindeki ifadelerin sonuna noktalı virgül konulmaz. Birkaç örnekle devam edelim. **Expression tag** kullanarak neler yapabiliriz bir görelim. 
 
 **-> Matematiksel işlemler yapıp sonucunu döndürebiliriz.**
 
