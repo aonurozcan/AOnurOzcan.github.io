@@ -83,8 +83,8 @@
 
   {% if page.share-img %}
   <meta property="og:image" content="{{ page.share-img }}" />
-  {% elsif site.avatar %}
-  <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
+  <!--{% elsif site.avatar %}-->
+  <!--<meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />-->
   {% endif %}
   
 
@@ -106,7 +106,7 @@
   {% elsif page.subtitle %}
   <meta name="twitter:description" content="{{ page.subtitle }}">
   {% else %}
-  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 30 }}">
   {% endif %}
 
   {% if page.share-img %}
