@@ -188,7 +188,7 @@ Bu etiket ile diğer **JSP** etiketlerine(``<jsp:include>``,``<jsp:forward>`` vs
 <jsp:useBean id="Beani temsil edecek herhangi bir isim"  class="paketAdi.classAdi" />
 {% endhighlight %}
 
-Yukarıdaki kod ile kullanacağımız **Java Class**'ından bir nesne oluşturmuş olduk. **<jsp:setProperty>** ve **<jsp:getProperty>** etiketlerini kullanarak bu nesne üzerinden değer atama(**Set**) ve değer çekme(**Get**) işlemleri yapabileceğiz.
+Yukarıdaki kod ile kullanacağımız **Java Class**'ından bir nesne oluşturmuş olduk. ``<jsp:setProperty>`` ve ``<jsp:getProperty>`` etiketlerini kullanarak bu nesne üzerinden değer atama(**Set**) ve değer çekme(**Get**) işlemleri yapabileceğiz.
 
 ## ``<jsp:setProperty>`` Etiketi
 
