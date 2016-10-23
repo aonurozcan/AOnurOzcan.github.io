@@ -18,24 +18,7 @@ Merhaba. Bir önceki yazımda **JSP - Expression Tag** konusuna değinmiştim. B
 
 ## Metot Tanımlama
 
-{% highlight html linenos %}
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Directive Tags</title>
-	</head>
-	<body>
-	<%!
-		public int topla(int sayi1,int sayi2){
-			return sayi1+sayi2;
-		}
-	 %>
-
-	 <%= "Sonuc : " + topla(3,5) %>
-
-	</body>
-</html>
-{% endhighlight %}
+<script src="https://gist.github.com/AOnurOzcan/f97f9db599e6b25ecd83a51a7652b26e.js"></script>
 
 #### Ekran Görüntüsü 
 ![Screenshot_3](http://kod5.org/wp-content/uploads/Screenshot_33.png)
