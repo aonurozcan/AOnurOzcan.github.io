@@ -2,7 +2,9 @@
 layout: post
 published: true
 title: JSP – Directive Tags - 4
-permalink: 2016-10-21-jsp-directive-tags-4
+permalink: jsp-directive-tags-4
+share-img: 'http://aonurozcan.com/img/jsp-wallpaper-small.png'
+date: '2016-10-21'
 ---
 Merhaba, bu yazıda emir etiketlerini göreceğiz. Emir etiketleri, JSP sayfalarının tüm işleyişini kontrol eder ve uygulama sunucusuna işleyişle ilgili bilgiler verir. Emir etiketleri JSP sayfalarının herhangi bir yerinde bulunabilir fakat genellikle en üste yazılır ve **<%@ .. %>**  arasına kodlanır. 
 
