@@ -2,7 +2,9 @@
 layout: post
 published: true
 title: JSP Yaşam Döngüsü (Lifecycle) - 3
-permalink: 2016-10-18-jsp-yasam-dongusu-lifecycle-3
+permalink: jsp-yasam-dongusu-lifecycle-3
+share-img: 'http://aonurozcan.com/img/jsp-wallpaper-small.png'
+date: '2016-10-18'
 ---
 Merhaba, [önceki](http://aonurozcan.com/2016-10-18-jsp-ilk-uygulama-2) yazımda **JSP** ile ilk uygulamamızı yapmıştık. Aslında bu yazıda **JSP** Emir etiketlerini anlatacaktım fakat aldığım tavsiyeler doğrultusunda **JSP**'nin yaşam döngüsünden bahsetmeye karar verdim. Şimdi bir **JSP** sayfası çalıştırıldığı andan itibaren arkaplanda hangi olaylar gerçekleşiyor buna bakacağız. Bir nevi işin derinine iniyoruz :) 
 
