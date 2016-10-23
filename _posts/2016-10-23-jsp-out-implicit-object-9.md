@@ -30,6 +30,7 @@ Parametre olarak gönderilen veriyi ekrana basar.
 
 #### void println()
 print metodundan tek farkı veriyi ekrana bastıktan sonra bir alt satıra geçmesidir.
+
 #### void newLine()
 Yeni bir satır açar. println() metodu ile aynı işlevi görür. 
 
