@@ -21,7 +21,7 @@ Merhaba, bu yazıda **JSP Action Tags**'i ele alacağız. **JSP** action etiketl
 
 Bir **JSP** sayfası içerisinde başka bir **JSP** sayfasını çağırmamızı sağlar. Bu sayede kodlarımızı farklı **JSP** sayfalarına yazarak bölebilir, bir sayfa içerisinde hepsini çağırıp kullanabiliriz.
 
-**<%@ include ... %>** etiketi ile aynı işlevi görür fakat **<jsp:include>** etiketi ile dahil etme işlemi **request**(istek) geldiğinde gerçekleşir, **<%@ include ... %>** etiketi ile dahil etme işlemi ise **JSP** sayfaları **Servlet**'e çevrilirken gerçekleşir. 
+**<%@ include ... %>** etiketi ile aynı işlevi görür fakat **``<jsp:include>``** etiketi ile dahil etme işlemi **request**(istek) geldiğinde gerçekleşir, **<%@ include ... %>** etiketi ile dahil etme işlemi ise **JSP** sayfaları **Servlet**'e çevrilirken gerçekleşir. 
 
 #### Kullanım:
 
