@@ -110,6 +110,7 @@ int main(int argc, char *argv[]){
 {% endhighlight %}
 
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
+
 ~~~
 ./another
 Onur
