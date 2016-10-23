@@ -36,7 +36,7 @@ Yapılan bir istek sonrası sunucu tarafından kullanıcıya gönderilen cevapla
 
 Oturum yönetimi için kullanılır. Oturumun açık kaldığı süre boyunca, kullanıcının bilgilerine bu nesne sayesinde her yerden erişilebilir. En çok kullanılan nesnelerden birisidir. 
 
-## Application:
+## Application
  
 Projemizin parametrelerine ulaşmada kullanılır. Örneğin; versiyonlar, url'ler, sunucu bilgileri. 
 
