@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: C++ Dosyalama İşlemleri (Dosyaya Yazma)
+permalink: cpp-dosyalama-islemleri-dosyaya-yazma
 ---
 C++ da dosyalama işlemleri C den oldukça farklı. Şimdi C++ da dosyalama işlemleri için başlıca hangi komutları kullanıyoruz bir bakalım.
 
