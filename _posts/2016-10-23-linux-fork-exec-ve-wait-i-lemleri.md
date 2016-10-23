@@ -65,7 +65,46 @@ Exec fonksiyon isimlerinin sonundaki harflere açıklık getirelim.
 * **``e``** harfi varsa, exec fonksiyonu ek olarak çevre değişkeni(envp) parametresi alır.
 * **``p``** harfi varsa, exec fonksiyonu çalıştırılabilir dosyanın yerinin belirlenmesinde PATH çevre değişkenlerine bakar.
 
+**``Not``**: Aşağıdaki örnekler için iki dosya oluşturdum. Birisi main.c diğeri ise another.c 
+main.c içinde exec fonksiyonları kullanarak another.c programını çağıracağız.
+
 ## execv Kullanımı
+
+#### main.c
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(){
+
+  char *args[] = {"./another", "Onur", NULL};
+
+  if(execv("./another", args) < 0){
+    exit(EXIT_FAILURE);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+#### another.c
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]){
+
+  int i;
+
+  for(i=0; i<argc; i++)
+  {
+      printf("%s\n",argv[i]);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
 
 
 
