@@ -44,7 +44,7 @@ Yukarıdaki kodu kısaca açıklamak gerekirse; fork fonksiyonu çağrıldığı
 ## Exec
 Bir prosesin içerisinde ayrı bir program çalıştırmak için kullanılır. 
 
-Aynı işi yapan fakat aralarında çok küçük farklılıklar bulunan 6 adet exec fonksiyonu vardır.
+Aynı işi yapan fakat aralarında çok küçük farklılıklar bulunan 6 adet exec fonksiyonu vardır. İlk parametre olarak çalıştırılabilir dosyanın yol bilgisini alırlar.
 
 * int execl(const char *path, const char *arg0, ... , (char *) 0);
 
@@ -64,6 +64,10 @@ Exec fonksiyon isimlerinin sonundaki harflere açıklık getirelim.
 * **``v``** harfi varsa, exec fonksiyonu çalıştıracağımız programa gönderilecek olan parametreleri dizi şeklinde alır.
 * **``e``** harfi varsa, exec fonksiyonu ek olarak çevre değişkeni(envp) parametresi alır.
 * **``p``** harfi varsa, exec fonksiyonu çalıştırılabilir dosyanın yerinin belirlenmesinde PATH çevre değişkenlerine bakar.
+
+## execv Kullanımı
+
+
 
 
 
