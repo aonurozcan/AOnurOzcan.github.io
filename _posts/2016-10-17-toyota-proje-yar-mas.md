@@ -2,7 +2,7 @@
 layout: post
 published: true
 title: Toyota Proje Yarışması
-permalink: /2016-10-17-toyota-proje-yarismasi
+permalink: toyota-proje-yarismasi
 ---
 Merhaba,
 
