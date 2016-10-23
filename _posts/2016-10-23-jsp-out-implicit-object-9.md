@@ -38,14 +38,19 @@ Diğer metotları açıklamadan önce buffer kavramına değinmek istiyorum. Buf
 
 #### boolean isAutoFlush()
 Buffer dolduğunda otomatik olarak arttırılıp arttırılmayacağını "true" ya da "false" olarak tutar. Varsayılan olarak "true" dir. 
+
 #### void clear()
 Ekrana o ana kadar ne yazdırılmışsa temizler. Yani buffer'ı sıfırlar. 
+
 #### void clearBuffer()
 clear() metoduyla aynı işlevi görür. Bu metodun farkı eğer önceden flush() metodu çağrıldıysa exception(hata) fırlatır. 
+
 #### flush()
 Bufferı tazeler. Sınırın aşılmasını sağlar. Eğer flush() metodu çağrılmaz ve sınır aşılırsa  "java.io.IOException: Error: JSP Buffer overflow" hatası fırlatılır. 
+
 #### getBufferSize()
-Varsayılan buffer değerini(8kb) döndürür.  1024 * 8 = 8192 değeri ekranda görünür. 
+Varsayılan buffer değerini(8kb) döndürür.  1024 * 8 = 8192 değeri ekranda görünür.
+
 #### getRemaining()
 Buffer'da ne kadar boş alan kaldığını anlamamızı sağlar. 
 
