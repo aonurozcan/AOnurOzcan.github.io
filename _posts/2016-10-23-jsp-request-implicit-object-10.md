@@ -270,7 +270,7 @@ Burada URL üzerinden "?site=KOD5" parametresi gönderdiğimize dikkat edelim.
 
 sonuc.jsp sayfasında yapılan istekle ilgili bilgileri çekelim.
 
-{% highlight html linenos %}
+{% highlight java linenos %}
 <%="Request URI : " + request.getRequestURI() + "<br>"%>
 <%="Request URL : " + request.getRequestURL() + "<br>"%>
 <%="Query String : " + request.getQueryString() + "<br>"%>
