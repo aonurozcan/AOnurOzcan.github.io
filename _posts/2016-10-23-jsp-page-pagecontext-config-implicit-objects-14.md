@@ -26,9 +26,9 @@ Bu metodun **getAtrribute()** metodundan farkı, parametre olarak verilen isme s
 
 Aşağıda gördüğünüz metotlar diğer gömülü nesneler tarafından da kullanılabiliyordu. Bu metotları **pageContext** nesnesi üzerinden çağırdığımızda ise işin hangi kapsamda yapılmasını istiyorsak ikinci ya da üçüncü parametre olarak onu veriyoruz. 
 
-**Object getAttribute (String AttributeName, int Scope)**
-**void removeAttribute(String AttributeName, int Scope)**
-**void setAttribute(String AttributeName, Object AttributeValue, int Scope)**
+* **Object getAttribute (String AttributeName, int Scope)**
+* **void removeAttribute(String AttributeName, int Scope)**
+* **void setAttribute(String AttributeName, Object AttributeValue, int Scope)**
 
 İkinci parametre olarak ;
 
