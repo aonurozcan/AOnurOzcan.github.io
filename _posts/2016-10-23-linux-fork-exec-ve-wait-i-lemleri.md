@@ -60,13 +60,10 @@ Aynı işi yapan fakat aralarında çok küçük farklılıklar bulunan 6 adet e
 
 Exec fonksiyon isimlerinin sonundaki harflere açıklık getirelim.
 
-**``l``** harfi varsa, exec fonksiyonu çalıştıracağımız programa gönderilecek olan parametreleri liste şeklinde alır. 
-
-**``v``** harfi varsa, exec fonksiyonu çalıştıracağımız programa gönderilecek olan parametreleri dizi şeklinde alır.
-
-**``e``** harfi varsa, exec fonksiyonu ek olarak çevre değişkeni(envp) parametresi alır.
-
-**``p``** harfi varsa, exec fonksiyonu çalıştırılabilir dosyanın yerinin belirlenmesinde PATH çevre değişkenlerine bakar.
+* **``l``** harfi varsa, exec fonksiyonu çalıştıracağımız programa gönderilecek olan parametreleri liste şeklinde alır. 
+* **``v``** harfi varsa, exec fonksiyonu çalıştıracağımız programa gönderilecek olan parametreleri dizi şeklinde alır.
+* **``e``** harfi varsa, exec fonksiyonu ek olarak çevre değişkeni(envp) parametresi alır.
+* **``p``** harfi varsa, exec fonksiyonu çalıştırılabilir dosyanın yerinin belirlenmesinde PATH çevre değişkenlerine bakar.
 
 
 
