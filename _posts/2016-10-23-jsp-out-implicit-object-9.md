@@ -29,7 +29,7 @@ Parametre olarak gönderilen veriyi ekrana basar.
 [![1](http://kod5.org/wp-content/uploads/119.png)](http://kod5.org/wp-content/uploads/119.png) 
 
 #### void println()
-print metodundan tek farkı veriyi ekrana bastıktan sonra bir alt satıra geçmesidir. 
+print metodundan tek farkı veriyi ekrana bastıktan sonra bir alt satıra geçmesidir.
 #### void newLine()
 Yeni bir satır açar. println() metodu ile aynı işlevi görür. 
 
