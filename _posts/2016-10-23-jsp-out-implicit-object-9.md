@@ -56,7 +56,7 @@ Buffer'da ne kadar boş alan kaldığını anlamamızı sağlar.
 
 ## Buffer, Flush Kavramlarıyla İlgili Örnek
 
-{% highlight html linenos %}
+{% highlight java linenos %}
 <html>
 <body>
 
