@@ -4,6 +4,7 @@ published: true
 title: Java Server Pages - JSP Giriş - 1
 permalink: java-server-pages-jsp-giris-1
 date: '2016-10-18'
+share-img: 'http://aonurozcan.com/img/jsp-wallpaper-small.png'
 ---
 Herkese merhaba. Bu yazı dizisinde sizlere JSP ve JSP içerisinde kullandığımız diğer teknolojileri(Servlet, JSTL, EL) anlatmaya çalışacağım. Halen öğrenmeye devam eden birisi olarak hatalarım olabilir. Dolayısıyla istek, öneri ve şikayetlerinizi benimle paylaşmaktan çekinmeyin. 
 
