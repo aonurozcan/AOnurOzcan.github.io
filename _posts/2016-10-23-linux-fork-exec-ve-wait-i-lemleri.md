@@ -59,7 +59,8 @@ Aynı işi yapan fakat aralarında çok küçük farklılıklar bulunan 6 adet e
 * int execvp(const char *file, char *const argv[]);
 
 Exec fonksiyon isimlerinin sonundaki harflere açıklık getirelim.
-**``l``** harfi çalıştıracağımız programa gönderilecek parametreleri liste şeklinde alır. 
+
+**``l``** harfi varsa, çalıştıracağımız programa gönderilecek parametreleri liste şeklinde alır. 
 
 
 
