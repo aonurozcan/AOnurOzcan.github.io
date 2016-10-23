@@ -78,8 +78,10 @@ main.c içinde exec fonksiyonları kullanarak another.c programını çağıraca
 
 int main(){
 
+  //execv parametreleri dizi olarak aldığından, parametre dizimizi oluşturuyoruz.
   char *args[] = {"./another", "Onur", NULL};
 
+  //Burada exec fonksiyonu 0'dan küçük değer döndürürse başarısız demektir.
   if(execv("./another", args) < 0){
     exit(EXIT_FAILURE);
   }
@@ -97,6 +99,7 @@ int main(int argc, char *argv[]){
 
   int i;
 
+  //Gönderdiğimiz parametreler argv dizisine gelecek. Burada tüm parametreleri yazdırıyoruz.
   for(i=0; i<argc; i++)
   {
       printf("%s\n",argv[i]);
@@ -105,6 +108,10 @@ int main(int argc, char *argv[]){
   return EXIT_SUCCESS;
 }
 {% endhighlight %}
+
+main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
+  ./another
+  Onur
 
 
 
