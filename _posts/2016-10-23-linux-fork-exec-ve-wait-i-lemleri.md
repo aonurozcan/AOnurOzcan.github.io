@@ -348,7 +348,8 @@ int main(){
   if(processId < 0){
     exit(EXIT_FAILURE);
   } else if(processId > 0){ //Parent process
-    wait(NULL); // wait(&status); şeklinde çağırsaydım çıkış kodu status değişkenine yazılacaktı
+    wait(NULL);
+    // wait(&status); şeklinde çağırsaydım çıkış kodu status değişkenine yazılacaktı
     printf("Child Process işini tamamlayıncaya kadar beklendi\n");
   } else if(processId == 0){ //Child process
     sleep(5);
