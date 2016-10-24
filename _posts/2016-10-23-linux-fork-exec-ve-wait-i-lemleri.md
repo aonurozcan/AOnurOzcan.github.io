@@ -39,7 +39,7 @@ int main()
 }
 {% endhighlight %}
 
-Yukarıdaki kodu kısaca açıklamak gerekirse; fork fonksiyonu çağrıldığı anda program çatallanır yani parent ve child olmak üzere iki kola ayrılır. Parent kolunda fork fonksiyonu oluşan child prosesin id'sini döndürür. Child kolunda ise fork geriye 0 döndürür. Bu sayede if else koşulları ile geriye dönen proses id'sini kontrol ederek şu an hangi prosesin içinde olduğumuzu anlayabilir ve ona göre işlemlerimizi yapabiliriz.
+Yukarıdaki kodu kısaca açıklamak gerekirse; fork fonksiyonu çağrıldığı anda program çatallanır yani **parent** ve **child** olmak üzere iki kola ayrılır. Parent kolunda fork fonksiyonu oluşan child prosesin id'sini döndürür. Child kolunda ise fork geriye **0** döndürür. Bu sayede if else koşulları ile geriye dönen proses id'sini kontrol ederek şu an hangi prosesin içinde olduğumuzu anlayabilir ve ona göre işlemlerimizi yapabiliriz.
 
 ## Exec
 Bir prosesin içerisinde ayrı bir program çalıştırmak için kullanılır. 
@@ -65,8 +65,7 @@ Exec fonksiyon isimlerinin sonundaki harflere açıklık getirelim.
 * **``e``** harfi varsa, exec fonksiyonu ek olarak çevre değişkeni(envp) parametresi alır.
 * **``p``** harfi varsa, exec fonksiyonu çalıştırılabilir dosyanın yerinin belirlenmesinde PATH çevre değişkenlerine bakar.
 
-**``Not``**: Aşağıdaki örnekler için iki dosya oluşturdum. Birisi main.c diğeri ise another.c 
-main.c içinde exec fonksiyonları kullanarak another.c programını çağıracağız.
+**``Not``**: Parametreleri dizi ya da liste şeklinde gönderirken, dizinin ya da listenin son elemanı **NULL** olmalı. Yalnız liste şeklinde gönderirken birkaç sebepten dolayı **NULL** yerine **NULL** ile aynı anlama gelen **``(char *) 0``** değerini kullanıyoruz. 
 
 ## execv Kullanımı
 
@@ -108,6 +107,8 @@ int main(int argc, char *argv[]){
   return EXIT_SUCCESS;
 }
 {% endhighlight %}
+
+Yukarıda **main.c** dosyasında **execv** kullanarak aynı dizinde bulunan **another** isimli programı çalıştırdık ve parametre olarak "another" ve "Onur" değerlerini gönderdik.(Dizi şeklinde gönderim)
 
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
@@ -153,6 +154,8 @@ int main(int argc, char *argv[]){
 }
 {% endhighlight %}
 
+Yukarıda **main.c** dosyasında **execl** kullanarak aynı dizinde bulunan **another** isimli programı çalıştırdık ve parametre olarak "another" ve "Onur" değerlerini gönderdik.(Liste şeklinde gönderim)
+
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
 ~~~
@@ -178,7 +181,9 @@ int main(){
 }
 {% endhighlight %}
 
-main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan ls programı -l parametresiyle çalıştırılacaktır ve çıktı şu şekilde olacaktır.
+Burada sonunda **p** harfi olan exec fonksiyonu arkaplanda ne yapıyor bir bakalım; **execlp** fonksiyonu ilk parametre olarak girilen programı sistemin **PATH** değişkeninde yazılı olan yerlerde arar. **ls** programı sistemde **/bin** konumunda bulunuyor. **PATH** değişkeni içerisinde de bin klasörü tanımlı olduğundan programımız aynı dizinde olmamasına rağmen çalıştırabildik. 
+
+main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan **ls** programı **-l** parametresiyle çalıştırılacaktır ve çıktı şu şekilde olacaktır.
 
 ~~~
 total 36
@@ -210,6 +215,8 @@ int main(){
   return EXIT_SUCCESS;
 }
 {% endhighlight %}
+
+Bir önceki örnekte yapılan işlemler burada da yapıldı. Tek fark şu: sonunda **v** olan exec fonksiyonu kullandığımız için parametreleri dizi olarak verdik.
 
 main.c derlenip çalıştırıldığında çıktı şu şekilde olacaktır.
 
@@ -265,6 +272,8 @@ int main(int argc, char *argv[]){
 }
 {% endhighlight %}
 
+Yukarıda main.c dosyasının içinde **execve** kullanarak aynı dizinde bulunan **another** isimli programı çağırdık. Parametre olarak "another" değerini, çevre değişkeni olarak da "name=Mustafa Demir" değerini yolladık. Sonunda **e** olan exec fonksiyonu kullanmamız bize çalıştıracağımız programa **çevre değişkeni** gönderebilmemizi sağladı.
+
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
 ~~~
@@ -312,6 +321,8 @@ int main(int argc, char *argv[]){
 }
 {% endhighlight %}
 
+Bir önceki örnekten farklı bir şey yapmadık. Sadece sonunda **l** olan bir exec fonksiyonu kullandığımız için liste şeklinde yolladık.
+
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
 ~~~
@@ -320,14 +331,14 @@ name=Alican Akkuş
 
 ## Wait
 
-Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonu alt proseslerden herhangi birisi sonlanıncaya kadar bekler. Yani birden fazla alt proses varsa hepsini beklemez. 
+Bir prosesin başka bir prosesi beklemesi için kullanılır. **Wait** fonksiyonu alt proseslerden herhangi birisi sonlanıncaya kadar bekler. Yani birden fazla alt proses varsa hepsini beklemez. 
 
 Fonksiyonunun tanımı şu şekildedir;
 
 * pid_t wait(int *status);
 
 **Wait** fonksiyonu geriye sonlanan prosesin **proses id**'sini döndürür. 
-Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
+Parametre olarak **int** tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
 **``Not``**: Parametre olarak **NULL** verilirse sonlanan prosesin çıkış kodunu vermez.
 
 ## Örnek
@@ -366,8 +377,8 @@ main.c derlenip çalıştırıldığında 5 saniye boyunca program bekleyecek ve
 
 > Kaynaklar:
 
-[http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88](http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88)
-[http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87](http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87)
+[http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88](http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88){:target="_blank"}
+[http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87](http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87){:target="_blank"}
 
 
 
