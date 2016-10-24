@@ -178,7 +178,16 @@ int main(){
 }
 {% endhighlight %}
 
-main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan ls programı -l parametresiyle çalıştırılacaktır.
+main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan ls programı -l parametresiyle çalıştırılacaktır ve çıktı şu şekilde olacaktır.
+
+~~~
+total 36
+-rwxrwxr-x 1 onur onur 8645 Oct 24 11:53 another
+-rw-rw-r-- 1 onur onur  203 Oct 24 11:48 another.c
+-rwxrwxr-x 1 onur onur 8602 Oct 24 11:53 main
+-rw-rw-r-- 1 onur onur  255 Oct 24 11:50 main.c
+-rw-rw-r-- 1 onur onur   61 Oct 23 14:45 makefile
+~~~
 
 ## execvp Kullanımı
 
