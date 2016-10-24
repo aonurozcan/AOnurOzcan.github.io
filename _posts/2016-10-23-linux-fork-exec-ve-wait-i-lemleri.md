@@ -380,5 +380,5 @@ main.c derlenip çalıştırıldığında 5 saniye boyunca program bekleyecek ve
 
 > Kaynaklar:
 
-[http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88](http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88){:target="_blank"}
-[http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87](http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87){:target="_blank"}
+[www.kaanaslan.com - Exec](http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88){:target="_blank"}
+[www.kaanaslan.com - Fork](http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87){:target="_blank"}
