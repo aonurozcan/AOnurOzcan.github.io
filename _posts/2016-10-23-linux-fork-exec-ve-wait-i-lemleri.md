@@ -126,7 +126,7 @@ Onur
 
 int main(){
 
-  if(execl("./another", "Onur", (char *) 0) < 0){
+  if(execl("./another", "İlkay", "Günel", (char *) 0) < 0){
     exit(EXIT_FAILURE);
   }
 
@@ -156,7 +156,8 @@ int main(int argc, char *argv[]){
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
 ~~~
-Onur
+İlkay
+Günel
 ~~~
 
 
