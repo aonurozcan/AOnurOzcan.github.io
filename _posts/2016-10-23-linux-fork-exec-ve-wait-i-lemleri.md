@@ -113,7 +113,7 @@ Yukarıda **main.c** dosyasında **execv** kullanarak aynı dizinde bulunan **an
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
 ~~~
-./another
+another
 Onur
 ~~~
 
@@ -154,7 +154,7 @@ int main(int argc, char *argv[]){
 }
 {% endhighlight %}
 
-Yukarıda **main.c** dosyasında **execl** kullanarak aynı dizinde bulunan **another** isimli programı çalıştırdık ve parametre olarak "another" ve "Onur" değerlerini gönderdik.(Liste şeklinde gönderim)
+Yukarıda **main.c** dosyasında **execl** kullanarak aynı dizinde bulunan **another** isimli programı çalıştırdık ve parametre olarak "İlkay" ve "Günel" değerlerini gönderdik.(Liste şeklinde gönderim)
 
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
