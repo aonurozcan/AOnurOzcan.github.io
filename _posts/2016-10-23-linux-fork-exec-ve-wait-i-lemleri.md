@@ -349,7 +349,7 @@ int main(){
     exit(EXIT_FAILURE);
   } else if(processId > 0){ //Parent process
     wait(NULL);
-    // wait(&status); şeklinde çağırsaydım çıkış kodu status değişkenine yazılacaktı
+    //wait(&status); şeklinde çağırsaydım çıkış kodu status değişkenine yazılacaktı
     printf("Child Process işini tamamlayıncaya kadar beklendi\n");
   } else if(processId == 0){ //Child process
     sleep(5);
@@ -362,7 +362,7 @@ int main(){
 
 Yukarıdaki kodda önce fork() fonksiyonu ile child process oluşturduk. Parent process içerisinde wait() fonksiyonu ile alt proses sonlanıncaya kadar beklemesini söyledik. Child process içerisinde ise programı 5 saniye duraklattık.
 
-main.c derlenip çalıştırıldığında 5 saniye boyunca program bekleyecek ve bu sürenin sonunda *Child Process işini tamamlayıncaya kadar beklendi* yazacaktır. Yani parent process, child processi beklemiş olacaktır.
+main.c derlenip çalıştırıldığında 5 saniye boyunca program bekleyecek ve bu sürenin sonunda **Child Process işini tamamlayıncaya kadar beklendi** yazacaktır. Yani parent process, child processi beklemiş olacaktır.
 
 
 
