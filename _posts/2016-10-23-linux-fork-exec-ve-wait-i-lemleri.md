@@ -116,9 +116,48 @@ main.c ve another.c derlenip main programı çalıştırıldığında çıktı �
 Onur
 ~~~
 
+## execl Kullanımı
 
+#### main.c
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
+int main(){
 
+  if(execl("./another", "Onur", (char *) 0) < 0){
+    exit(EXIT_FAILURE);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+#### another.c
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]){
+
+  int i;
+
+  //Gönderdiğimiz parametreler argv dizisine gelecek. Burada tüm parametreleri yazdırıyoruz.
+  for(i=0; i<argc; i++)
+  {
+      printf("%s\n",argv[i]);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
+
+~~~
+Onur
+~~~
 
 
 
