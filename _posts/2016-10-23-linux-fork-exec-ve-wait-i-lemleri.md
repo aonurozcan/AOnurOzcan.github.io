@@ -324,9 +324,9 @@ Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonunun
 
 * pid_t wait(int *status);
 
-Wait fonksiyonu geriye sonlanan prosesin proses id'sini döndürür.
+**Wait** fonksiyonu geriye sonlanan prosesin **proses id**'sini döndürür.
 Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
-**``Not``**: Parametre olarak NULL verilirse sonlanan prosesin çıkış kodunu vermez.
+**``Not``**: Parametre olarak **NULL** verilirse sonlanan prosesin çıkış kodunu vermez.
 
 ## Örnek
 
@@ -339,13 +339,14 @@ Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene son
 int main(){
 
   pid_t processId;
+  int status;
 
   processId = fork();
 
   if(processId < 0){
     exit(EXIT_FAILURE);
   } else if(processId > 0){ //Parent process
-    wait(NULL);
+    wait(NULL); // wait(&status); şeklinde çağırsaydım çıkış kodu status değişkenine yazılacaktı
     printf("Child Process işini tamamlayıncaya kadar beklendi\n");
   } else if(processId == 0){ //Child process
     sleep(5);
