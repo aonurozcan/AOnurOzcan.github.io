@@ -4,7 +4,7 @@ published: true
 title: 'Linux fork, exec ve wait işlemleri'
 date: '2016-10-25'
 permalink: linux-fork-exec-wait-islemleri
-share-img: 'http://aonurozcan.com/img/standard-share-img-2.jpg'
+share-img: 'http://aonurozcan.com/img/standard-share-img-3.jpeg'
 ---
 Merhaba, bu yazıda linux sistemlerindeki fork, exec ve wait işlemlerine değineceğiz.
 
