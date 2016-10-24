@@ -271,7 +271,7 @@ main.c ve another.c derlenip main programı çalıştırıldığında çıktı �
 name=Mustafa Demir
 ~~~
 
-## execle kullanımı
+## execle Kullanımı
 
 #### main.c
 
@@ -319,6 +319,42 @@ name=Alican Akkuş
 ~~~
 
 ## Wait
+
+Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonunun tanımı şu şekildedir;
+
+* pid_t wait(int *status);
+
+Wait fonksiyonu geriye sonlanan prosesin proses id'sini döndürür.
+Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
+**``Not``**: Parametre olarak NULL verilirse sonlanan prosesin çıkış kodunu vermez.
+## Örnek
+
+#### main.c
+
+{% highlight c linenos %}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+  pid_t processId;
+
+  processId = fork();
+
+  if(processId < 0){
+    exit(EXIT_FAILURE);
+  } else if(processId > 0){ //Parent process
+    wait(NULL);
+    printf("Child Process işini tamamlayıncaya kadar beklendi\n");
+  } else if(processId == 0){ //Child process
+    sleep(5);
+  }
+
+  return EXIT_SUCCESS;
+}
+
+{% endhighlight %}
 
 
 
