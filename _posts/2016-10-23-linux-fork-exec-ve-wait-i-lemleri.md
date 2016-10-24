@@ -364,8 +364,10 @@ Yukarıdaki kodda önce fork() fonksiyonu ile child process oluşturduk. Parent 
 
 main.c derlenip çalıştırıldığında 5 saniye boyunca program bekleyecek ve bu sürenin sonunda **Child Process işini tamamlayıncaya kadar beklendi** yazacaktır. Yani parent process, child processi beklemiş olacaktır.
 
-> Kaynaklar: 
+> Kaynaklar:
+
 http://www.kaanaslan.com/resource/article/display_article.php?key=exec&id=88
+
 http://www.kaanaslan.com/resource/article/display_article.php?key=fork&id=87
 
 
