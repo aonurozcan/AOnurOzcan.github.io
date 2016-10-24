@@ -181,7 +181,7 @@ int main(){
 }
 {% endhighlight %}
 
-Burada sonunda **p** harfi olan exec fonksiyonu arkaplanda ne yapıyor bir bakalım; **execlp** fonksiyonu ilk parametre olarak girilen programı sistemin **PATH** değişkeninde yazılı olan yerlerde arar. **ls** programı sistemde **/bin** konumunda bulunuyor. **PATH** değişkeni içerisinde de bin klasörü tanımlı olduğundan programımız aynı dizinde olmamasına rağmen çalıştırabildik. 
+Burada sonunda **p** harfi olan exec fonksiyonu arkaplanda ne yapıyor bir bakalım; **execlp** fonksiyonu ilk parametre olarak girilen programı sistemin **PATH** değişkeninde yazılı olan yerlerde arar. **ls** programı sistemde **/bin** konumunda bulunuyor. **PATH** değişkeni içerisinde de bin klasörü tanımlı olduğundan programımızı aynı dizinde olmamasına rağmen çalıştırabildik. 
 
 main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan **ls** programı **-l** parametresiyle çalıştırılacaktır ve çıktı şu şekilde olacaktır.
 
@@ -229,6 +229,8 @@ total 36
 -rw-rw-r-- 1 onur onur   61 Oct 23 14:45 makefile
 
 ~~~
+
+**``Not``**: Sonunda **p** olan exec fonksiyonları ilk parametre olarak verilen programı aynı dizinde aramazlar. Fakat eğer biz program ismimizin başına **./** koyarak parametre olarak verirsek aynı dizinde aramasını sağlayabiliriz. Kendi yazdığımız bir programı komut satırından çalıştırmak istediğimizde başına **./** koymamızın sebebi de budur. Çünkü Linux sistemi yazdığımız program ismini arka planda sonu **p** ile biten exec fonksiyonlarıyla çağırır.
 
 ## execve Kullanımı
 
