@@ -79,10 +79,10 @@ main.c içinde exec fonksiyonları kullanarak another.c programını çağıraca
 int main(){
 
   //execv parametreleri dizi olarak aldığından, parametre dizimizi oluşturuyoruz.
-  char *args[] = {"./another", "Onur", NULL};
+  char *args[] = {"another", "Onur", NULL};
 
   //Burada exec fonksiyonu 0'dan küçük değer döndürürse başarısız demektir.
-  if(execv("./another", args) < 0){
+  if(execv("another", args) < 0){
     exit(EXIT_FAILURE);
   }
 
@@ -126,7 +126,7 @@ Onur
 
 int main(){
 
-  if(execl("./another", "İlkay", "Günel", (char *) 0) < 0){
+  if(execl("another", "İlkay", "Günel", (char *) 0) < 0){
     exit(EXIT_FAILURE);
   }
 
@@ -202,6 +202,65 @@ int main(){
 }
 {% endhighlight %}
 
+main.c derlenip çalıştırıldığında çıktı şu şekilde olacaktır.
+
+~~~
+total 36
+-rwxrwxr-x 1 onur onur 8645 Oct 24 11:53 another
+-rw-rw-r-- 1 onur onur  203 Oct 24 11:48 another.c
+-rwxrwxr-x 1 onur onur 8602 Oct 24 11:53 main
+-rw-rw-r-- 1 onur onur  255 Oct 24 11:50 main.c
+-rw-rw-r-- 1 onur onur   61 Oct 23 14:45 makefile
+
+~~~
+
+## execve Kullanımı
+
+#### main.c
+
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(){
+
+  char *args[] = {"another", NULL};
+  char *env[] = {"name=Mustafa Demir", NULL};
+
+  if (execve("another", args, env) < 0)  {
+      exit(EXIT_FAILURE);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+#### another.c
+
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+
+extern char **environ;
+
+int main(int argc, char *argv[]){
+
+  int i;
+
+    for (i = 0; environ[i] != NULL; ++i)
+        puts(environ[i]);
+
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
+
+~~~
+name=Mustafa Demir
+~~~
 
 
 
