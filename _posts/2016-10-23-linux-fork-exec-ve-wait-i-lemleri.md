@@ -271,7 +271,54 @@ main.c ve another.c derlenip main programı çalıştırıldığında çıktı �
 name=Mustafa Demir
 ~~~
 
+## execle kullanımı
 
+#### main.c
+
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(){
+
+  char *env[] = {"name=Alican Akkuş", NULL};
+
+  if (execle("another", "another", (char *) 0, env) < 0) {
+      exit(EXIT_FAILURE);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+#### another.c
+
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+
+extern char **environ;
+
+int main(int argc, char *argv[]){
+
+  int i;
+
+    for (i = 0; environ[i] != NULL; ++i)
+        puts(environ[i]);
+
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
+main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
+
+~~~
+name=Alican Akkuş
+~~~
+
+## Wait
 
 
 
