@@ -160,8 +160,23 @@ main.c ve another.c derlenip main programı çalıştırıldığında çıktı �
 Günel
 ~~~
 
+## execlp Kullanımı
 
+#### main.c
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
+int main(){
+
+  if(execlp("ls", "-l", (char *) 0) < 0){
+    exit(EXIT_FAILURE);
+  }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
 
 
 
