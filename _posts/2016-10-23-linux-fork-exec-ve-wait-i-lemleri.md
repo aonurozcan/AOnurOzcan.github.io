@@ -330,7 +330,6 @@ Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene son
 ## Örnek
 
 #### main.c
-
 {% highlight c linenos %}
 
 #include <stdio.h>
