@@ -327,6 +327,7 @@ Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonunun
 Wait fonksiyonu geriye sonlanan prosesin proses id'sini döndürür.
 Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
 **``Not``**: Parametre olarak NULL verilirse sonlanan prosesin çıkış kodunu vermez.
+
 ## Örnek
 
 #### main.c
