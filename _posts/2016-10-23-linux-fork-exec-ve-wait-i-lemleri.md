@@ -178,6 +178,30 @@ int main(){
 }
 {% endhighlight %}
 
+main.c dosyası derlenip çalıştırıldığında Linux sistemlerinde dahili olarak bulunan ls programı -l parametresiyle çalıştırılacaktır.
+
+## execvp Kullanımı
+
+#### main.c
+
+{% highlight c linenos %}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(){
+
+    char *args[] = {"ls", "-l", NULL};
+
+    if (execvp("ls", args) < 0) {
+        perror("execvp");
+        exit(EXIT_FAILURE);
+    }
+
+  return EXIT_SUCCESS;
+}
+{% endhighlight %}
+
 
 
 
