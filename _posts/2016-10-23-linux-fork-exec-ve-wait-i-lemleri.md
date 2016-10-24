@@ -320,11 +320,13 @@ name=Alican Akkuş
 
 ## Wait
 
-Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonunun tanımı şu şekildedir;
+Bir prosesin başka bir prosesi beklemesi için kullanılır. Wait fonksiyonu alt proseslerden herhangi birisi sonlanıncaya kadar bekler. Yani birden fazla alt proses varsa hepsini beklemez. 
+
+Fonksiyonunun tanımı şu şekildedir;
 
 * pid_t wait(int *status);
 
-**Wait** fonksiyonu geriye sonlanan prosesin **proses id**'sini döndürür.
+**Wait** fonksiyonu geriye sonlanan prosesin **proses id**'sini döndürür. 
 Parametre olarak int tipinde bir değişkenin adresini alır. Bu değişkene sonlanan prosesin çıkış kodu yazılır.
 **``Not``**: Parametre olarak **NULL** verilirse sonlanan prosesin çıkış kodunu vermez.
 
