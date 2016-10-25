@@ -235,6 +235,8 @@ total 36
 
 ## execve Kullanımı
 
+**``Not``**: Aşağıdaki örneklerde gönderdiğimiz çevre değişkenleri another.c isimli dosyadaki **``extern char **environ;``** değişkenine atanmaktadır.
+
 #### main.c
 
 {% highlight c linenos %}
@@ -324,7 +326,7 @@ int main(int argc, char *argv[]){
 }
 {% endhighlight %}
 
-Bir önceki örnekten farklı bir şey yapmadık. Sadece sonunda **l** olan bir exec fonksiyonu kullandığımız için liste şeklinde yolladık.
+Bir önceki örnekten farklı bir şey yapmadık. Sadece sonunda **l** olan bir exec fonksiyonu kullandığımız için parametreleri liste şeklinde yolladık.
 
 main.c ve another.c derlenip main programı çalıştırıldığında çıktı şu şekilde olacaktır.
 
