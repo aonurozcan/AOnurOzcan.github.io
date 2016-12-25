@@ -69,7 +69,7 @@ vee Mutlu Son…
 
 Arkadaşlar son olarak şunları söyleyeyim. Ne kadar erken başvurursanız o kadar iyi. Çünkü 1.sınıfları 2’ye, 2.sınıfları 3’e tercih ediyorlar. Eğer biraz kendinizi geliştirirseniz, verilen projeyi kısmen de olsa yapabilecekseniz 1.sınıfta başvurabilirsiniz.
 
-Yarışma süreci, proje veya başka bir konu hakkında soru sormak isterseniz bana [facebook](https://www.facebook.com/onurozcn){:target="_blank"}
+Yarışma süreci, proje veya başka bir konu hakkında soru sormak isterseniz bana [facebook](https://www.facebook.com/aonurozcan){:target="_blank"}
 ‘tan ulaşabilirsiniz. 
 
 Hazırladığımız projenin kaynak kodları : [Toyota Personel Servisleri Projesi](https://bitbucket.org/thensa352/toyotaroute/src){:target="_blank"}
