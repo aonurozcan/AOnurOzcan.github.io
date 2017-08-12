@@ -3,7 +3,7 @@ layout: page
 title: Hakkımda
 ---
 
-Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü 4.sınıf öğrencisiyim.
+Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü mezunuyum. Toyota Motor Europe şirketinde çalışmaktayım.
 
 ### Java
 - JSP
