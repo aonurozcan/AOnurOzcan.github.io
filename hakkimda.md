@@ -3,7 +3,7 @@ layout: page
 title: Hakkımda
 ---
 
-Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü mezunuyum. Toyota Motor Europe şirketinde çalışmaktayım.
+Sakarya Üniversitesi Bilgisayar Mühendisliği bölümü mezunuyum. İyzico'da yazılım mühendisi olarak çalışmaktayım.
 
 ### Java
 - JSP
