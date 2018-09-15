@@ -36,6 +36,7 @@ int main() {
   dosya << "Dosyaya yazi yazdim."; //Dikkat edin burada oluşturduğumuz nesneyi cout gibi kullanıyoruz.
   dosya.close(); //dosyayı kapattık.
   return 0;
+}
 {% endhighlight %}
 
 Programımızın çıktısı şu şekilde olacaktır.
